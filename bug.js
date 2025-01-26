@@ -1,0 +1,1 @@
+This error occurs when using the Expo DocumentPicker API to select multiple files. The selectedFiles array returned by the DocumentPicker.getDocumentAsync method contains file URIs that cannot be directly accessed using the FileSystem API. This results in an error when trying to read the file content or display the file.
